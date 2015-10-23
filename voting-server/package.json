@@ -1,8 +1,9 @@
 {
   "name": "voting-server",
   "version": "1.0.0",
-  "description": "voting app in React, Redux full stack",
+  "description": "server component of the voting app",
   "main": "index.js",
+  "repository": "https://github.com/clementmiao/voting-app.git",
   "scripts": {
     "start": "babel-node index.js",
     "test": "mocha --compilers js:babel/register --require ./test/test_helper.js --recursive",
